@@ -1,4 +1,5 @@
 #### Topic - Application continuity management service
+--------------
 
 # AppShield
 
@@ -6,7 +7,7 @@
 
 An application continuity service dynamically backs up and restores the state of applications running within the framework on K8s. The service shall use the DSL of the framework to determine the relevant application state and its backup policies. Developers of an application should be able to backup and restore a specific version from images and relevant state from the service. The application state shall be stored externally on the given S3-compatible object storage.
 
-### Stakeholder
+## Stakeholder
 
 * DevOps
 * System administrators
@@ -14,7 +15,7 @@ An application continuity service dynamically backs up and restores the state of
 * Information Security
 * Product manager
 
-### Functional requirements
+## Functional requirements
 
 * Monitoring the status of applications: Monitors the status of applications and can perform automatic actions
 
@@ -44,11 +45,11 @@ An application continuity service dynamically backs up and restores the state of
 * External storage of state backups
   * The application state shall be stored externally on the given S3-compatible object storage
  
-### Constrains
+## Constrains
 
 ## Team name: ASDs
 
-### Students
+## Students
 
 * Gorelyi Mikhail
 * Lukashin Daniil
