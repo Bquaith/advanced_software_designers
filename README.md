@@ -10,7 +10,7 @@ An application continuity service dynamically backs up and restores the state of
 ## Stakeholder
 
 * DevOps
-* System administrators
+* Engineer
 * Developers
 * Information Security
 * Product manager
@@ -47,9 +47,17 @@ An application continuity service dynamically backs up and restores the state of
  
 ## Constrains
 
+* Performance Limitations: There may be limitations related to backup creation and restore time, possible system load parameters and network limitations
+
+* Limitations on the amount of data: The storage may have limited storage capacity, which will require monitoring of its occupancy
+
+* Compatibility with different versions of Kubernetes: Different versions of Kubernetes may have their own peculiarities of operation, which can cause problems with backup and restore states. Supporting different versions requires additional testing and updating efforts
+
+* Security: The need to implement access and data security controls
+
 ## Team name: ASDs
 
-## Students
+### Students
 
 * Gorelyi Mikhail
 * Lukashin Daniil
